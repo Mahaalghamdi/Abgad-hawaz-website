@@ -1,0 +1,182 @@
+body{
+  background-color: #F2F2F2;
+  text-align: right;
+  font-family: 'tajawal';
+  color: #383838;
+}
+@font-face {
+  font-family: 'jadfont';
+  src: url('fonts/AA-JAD.otf');
+  src:
+		local('jadfont'),
+		local('AA-JAD'),
+		url('fonts/AA-JAD.otf')
+		format('opentype');
+}
+
+/* Home Section  */
+
+
+#home{
+font-family: 'jadfont';
+}
+
+.islamic-img{
+  padding: 12% 10%;
+  background-image: url("../images/islamic-background.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+}
+
+.navbar-brand {
+  font-size: 9rem;
+}
+
+.navbar-nav > li{
+  font-family: 'tajawal';
+  margin: auto 30px;
+  margin-bottom: 5%;
+  font-weight: 700;
+}
+
+.right-sentence{
+   padding-top: -15%;
+  padding-right: 25%;
+}
+
+ .left-sentence{
+  padding-top: 10%;
+  padding-right: 4%;
+
+}
+
+.grid-container {
+  padding-top: 0;
+  display: inline-grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 120px;
+}
+
+.home-sentence{
+  font-size: 12rem;
+}
+
+.home-sentence:hover{
+  color: #ABE2F2;
+}
+
+
+/* Paraghraph Generator Section */
+
+ #paraghraph-generator{
+   padding: 20% 7%;
+   background-image: url("../images/paraghraph-background.png");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: contain;
+}
+
+
+.container-fluid{
+  padding: 2% 5%;
+}
+
+.heading{
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 10% 0 0 5%;
+}
+
+.heading:hover{
+  color: #A7ADDB;
+}
+
+.form-font-style{
+  color: #000;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.form-style{
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph-generator-top{
+  background-color: #F2F2F2;
+  border: 1px solid #383838;
+  color: #383838;
+  padding: 2%;
+  overflow-y: auto;
+}
+
+.paragraph-generator{
+  overflow: auto;
+  max-height: 500px;
+  width: 100%;
+}
+
+.page-generator-bottom{
+padding: 3% 3% 3%;
+background-color: #28C3EF;
+border-radius: 0;
+width: auto;
+border-bottom-left-radius: 0.25rem;
+border-bottom-right-radius: 0.25rem;
+}
+
+
+
+/* About Section  */
+
+#about{
+  padding: 20% 7%;
+  background-image: url("../images/about-background.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.paragraph-style{
+  background-color: #F2F2F2;
+  font-size: 1.3rem;
+  padding: 7% 6% 2% 6%;
+}
+
+
+/* Contact Section */
+
+#contact{
+  background-color: #ABE2F2;
+  text-align: center;
+  padding: 4%;
+}
+
+.contact-style a{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact-style a:hover{
+  color: #FFF;
+  text-decoration: line-through;
+}
+
+/* ------------------------------ */
+/* Media Query */
+
+@media (max-width: 992px) {
+.home-sentence{
+  font-size: 5rem;
+}
+
+.paragraph-style{
+  font-size: 1rem;
+  border: 0.2px solid #383838;
+  border-radius: 30%;
+}
+
+}
